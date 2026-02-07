@@ -1,0 +1,52 @@
+# TariffShock .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.eggs/
+*.egg-info/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================================
+# RAW/UNPROCESSED DATA (keep locally only)
+# ============================================
+# These large raw data files should not be pushed to git
+# Only the processed/ folder is needed for the app to run
+
+data/2024_EXP_HS2/
+data/2024_EXP_HS6/
+data/2024_EXP_HS8/
+data/2024_IMP_HS2/
+data/2024_IMP_HS6/
+data/2024_IMP_HS10/
+data/Business_Supplier_Change_Data.csv
+data/Business_Supplier_Change_MetaData.csv
+
+# Keep processed data (small, required for app)
+!data/processed/

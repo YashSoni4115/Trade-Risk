@@ -1,0 +1,939 @@
+geography,industry,naics_code,pct_changed_suppliers
+Canada,"North American Industry Classification System (NAICS), all industries",,15.4
+Canada,"Agriculture, forestry, fishing and hunting",11,10.6
+Canada,"Mining, quarrying, and oil and gas extraction",21,9.3
+Canada,Construction,23,9.5
+Canada,Manufacturing,31-33,25.5
+Canada,Wholesale trade,41,23.0
+Canada,Retail trade,44-45,19.3
+Canada,Transportation and warehousing,48-49,14.5
+Canada,Information and cultural industries,51,15.4
+Canada,Finance and insurance,52,3.3
+Canada,Real estate and rental and leasing,53,7.4
+Canada,"Professional, scientific and technical services",54,7.0
+Canada,"Administrative and support, waste management and remediation services",56,18.7
+Canada,Health care and social assistance,62,16.4
+Canada,"Arts, entertainment and recreation",71,20.9
+Canada,Accommodation and food services,72,25.6
+Canada,Other services (except public administration),81,22.4
+Canada,"Business or organization size of employment, all employment sizes",,15.4
+Canada,1 to 4 employees,,11.4
+Canada,5 to 19 employees,,19.3
+Canada,20 to 99 employees,,21.5
+Canada,100 or more employees,,29.4
+Canada,"Business or organization type, all businesses or organizations",,15.4
+Canada,Government agencies,,31.9
+Canada,Private sector businesses,,15.3
+Canada,Non-profit organizations,,15.3
+Canada,Non-profit organizations serving households or individuals,,12.8
+Canada,Non-profit organizations serving businesses,,29.5
+Canada,"Age of business or organization, all ages",,15.4
+Canada,"Age of business or organization, 2 years or less",,13.6
+Canada,"Age of business or organization, 3 to 10 years old",,15.1
+Canada,"Age of business or organization, 11 to 20 years old",,14.5
+Canada,"Age of business or organization, more than 20 years old",,16.6
+Canada,"Geography, all geography",,15.4
+Canada,Urban,,16.2
+Canada,Rural,,11.5
+Canada,"Majority ownership, all ownerships",,15.3
+Canada,"Majority ownership, woman",,18.6
+Canada,"Majority ownership, First Nations, Métis or Inuit",,13.1
+Canada,"Majority ownership, immigrant to Canada",,16.0
+Canada,"Majority ownership, person with a disability",,13.4
+Canada,"Majority ownership, LGBTQ2 people",,12.7
+Canada,"Majority ownership, visible minority",,16.3
+Canada,"Ownership by visible minority, all visible minorities",,16.3
+Canada,"Ownership by visible minority, South Asian",,19.3
+Canada,"Ownership by visible minority, Chinese",,14.6
+Canada,"Ownership by visible minority, Black",,14.8
+Canada,"Ownership by visible minority, Filipino",,17.5
+Canada,"Ownership by visible minority, Latin American",,11.3
+Canada,"Ownership by visible minority, Arab",,14.0
+Canada,"Ownership by visible minority, Southeast Asian",,30.3
+Canada,"Ownership by visible minority, West Asian",,10.5
+Canada,"Ownership by visible minority, Korean",,2.0
+Canada,"Ownership by visible minority, Japanese",,
+Canada,"Ownership by visible minority, other visible minority",,17.0
+Canada,"Ownership by visible minority, preferred not to say",,3.9
+Canada,"Business or organization activity in the last 12 months, all business or organization activities",,15.4
+Canada,Exported goods outside of Canada,,25.3
+Canada,Exported services outside of Canada,,10.7
+Canada,Made investments outside of Canada,,23.2
+Canada,Sold goods to businesses in Canada who then resold them outside of Canada,,24.1
+Canada,Imported goods from outside of Canada,,26.9
+Canada,Imported services from outside of Canada,,18.2
+Canada,Relocated any business or organizational activities or employees from another country into Canada,,32.2
+Canada,Relocated any business or organizational activities or employees from Canada to another country,,
+Canada,Engaged in other international business activities,,16.0
+Canada,"Business or organization activity, none or other",,13.7
+Newfoundland and Labrador,"North American Industry Classification System (NAICS), all industries",,19.2
+Newfoundland and Labrador,"Agriculture, forestry, fishing and hunting",11,7.8
+Newfoundland and Labrador,"Mining, quarrying, and oil and gas extraction",21,25.1
+Newfoundland and Labrador,Construction,23,11.9
+Newfoundland and Labrador,Manufacturing,31-33,21.1
+Newfoundland and Labrador,Wholesale trade,41,59.4
+Newfoundland and Labrador,Retail trade,44-45,29.9
+Newfoundland and Labrador,Transportation and warehousing,48-49,10.1
+Newfoundland and Labrador,Information and cultural industries,51,14.8
+Newfoundland and Labrador,Finance and insurance,52,4.1
+Newfoundland and Labrador,Real estate and rental and leasing,53,21.9
+Newfoundland and Labrador,"Professional, scientific and technical services",54,4.7
+Newfoundland and Labrador,"Administrative and support, waste management and remediation services",56,0.2
+Newfoundland and Labrador,Health care and social assistance,62,14.3
+Newfoundland and Labrador,"Arts, entertainment and recreation",71,25.0
+Newfoundland and Labrador,Accommodation and food services,72,32.2
+Newfoundland and Labrador,Other services (except public administration),81,11.9
+Newfoundland and Labrador,"Business or organization size of employment, all employment sizes",,19.2
+Newfoundland and Labrador,1 to 4 employees,,11.7
+Newfoundland and Labrador,5 to 19 employees,,26.9
+Newfoundland and Labrador,20 to 99 employees,,24.8
+Newfoundland and Labrador,100 or more employees,,37.7
+Newfoundland and Labrador,"Business or organization type, all businesses or organizations",,19.2
+Newfoundland and Labrador,Government agencies,,
+Newfoundland and Labrador,Private sector businesses,,21.1
+Newfoundland and Labrador,Non-profit organizations,,4.9
+Newfoundland and Labrador,Non-profit organizations serving households or individuals,,3.2
+Newfoundland and Labrador,Non-profit organizations serving businesses,,12.2
+Newfoundland and Labrador,"Age of business or organization, all ages",,19.2
+Newfoundland and Labrador,"Age of business or organization, 2 years or less",,24.8
+Newfoundland and Labrador,"Age of business or organization, 3 to 10 years old",,15.1
+Newfoundland and Labrador,"Age of business or organization, 11 to 20 years old",,15.5
+Newfoundland and Labrador,"Age of business or organization, more than 20 years old",,22.4
+Newfoundland and Labrador,"Geography, all geography",,19.2
+Newfoundland and Labrador,Urban,,19.9
+Newfoundland and Labrador,Rural,,18.4
+Newfoundland and Labrador,"Majority ownership, all ownerships",,21.1
+Newfoundland and Labrador,"Majority ownership, woman",,35.8
+Newfoundland and Labrador,"Majority ownership, First Nations, Métis or Inuit",,9.1
+Newfoundland and Labrador,"Majority ownership, immigrant to Canada",,37.0
+Newfoundland and Labrador,"Majority ownership, person with a disability",,
+Newfoundland and Labrador,"Majority ownership, LGBTQ2 people",,7.5
+Newfoundland and Labrador,"Majority ownership, visible minority",,41.1
+Newfoundland and Labrador,"Ownership by visible minority, all visible minorities",,41.1
+Newfoundland and Labrador,"Ownership by visible minority, South Asian",,
+Newfoundland and Labrador,"Ownership by visible minority, Chinese",,
+Newfoundland and Labrador,"Ownership by visible minority, Black",,0.0
+Newfoundland and Labrador,"Ownership by visible minority, Filipino",,0.0
+Newfoundland and Labrador,"Ownership by visible minority, Latin American",,0.0
+Newfoundland and Labrador,"Ownership by visible minority, Arab",,
+Newfoundland and Labrador,"Ownership by visible minority, Southeast Asian",,0.0
+Newfoundland and Labrador,"Ownership by visible minority, West Asian",,
+Newfoundland and Labrador,"Ownership by visible minority, Korean",,
+Newfoundland and Labrador,"Ownership by visible minority, Japanese",,
+Newfoundland and Labrador,"Ownership by visible minority, other visible minority",,
+Newfoundland and Labrador,"Ownership by visible minority, preferred not to say",,95.6
+Newfoundland and Labrador,"Business or organization activity in the last 12 months, all business or organization activities",,19.2
+Newfoundland and Labrador,Exported goods outside of Canada,,41.9
+Newfoundland and Labrador,Exported services outside of Canada,,10.7
+Newfoundland and Labrador,Made investments outside of Canada,,
+Newfoundland and Labrador,Sold goods to businesses in Canada who then resold them outside of Canada,,5.6
+Newfoundland and Labrador,Imported goods from outside of Canada,,42.2
+Newfoundland and Labrador,Imported services from outside of Canada,,
+Newfoundland and Labrador,Relocated any business or organizational activities or employees from another country into Canada,,
+Newfoundland and Labrador,Relocated any business or organizational activities or employees from Canada to another country,,0.0
+Newfoundland and Labrador,Engaged in other international business activities,,
+Newfoundland and Labrador,"Business or organization activity, none or other",,17.2
+Prince Edward Island,"North American Industry Classification System (NAICS), all industries",,13.0
+Prince Edward Island,"Agriculture, forestry, fishing and hunting",11,16.5
+Prince Edward Island,"Mining, quarrying, and oil and gas extraction",21,0.0
+Prince Edward Island,Construction,23,11.2
+Prince Edward Island,Manufacturing,31-33,33.3
+Prince Edward Island,Wholesale trade,41,17.1
+Prince Edward Island,Retail trade,44-45,3.5
+Prince Edward Island,Transportation and warehousing,48-49,1.8
+Prince Edward Island,Information and cultural industries,51,
+Prince Edward Island,Finance and insurance,52,0.0
+Prince Edward Island,Real estate and rental and leasing,53,6.9
+Prince Edward Island,"Professional, scientific and technical services",54,18.7
+Prince Edward Island,"Administrative and support, waste management and remediation services",56,0.0
+Prince Edward Island,Health care and social assistance,62,1.9
+Prince Edward Island,"Arts, entertainment and recreation",71,2.5
+Prince Edward Island,Accommodation and food services,72,34.7
+Prince Edward Island,Other services (except public administration),81,16.4
+Prince Edward Island,"Business or organization size of employment, all employment sizes",,13.0
+Prince Edward Island,1 to 4 employees,,11.6
+Prince Edward Island,5 to 19 employees,,13.2
+Prince Edward Island,20 to 99 employees,,13.5
+Prince Edward Island,100 or more employees,,50.1
+Prince Edward Island,"Business or organization type, all businesses or organizations",,13.0
+Prince Edward Island,Government agencies,,0.0
+Prince Edward Island,Private sector businesses,,13.6
+Prince Edward Island,Non-profit organizations,,7.9
+Prince Edward Island,Non-profit organizations serving households or individuals,,9.0
+Prince Edward Island,Non-profit organizations serving businesses,,0.0
+Prince Edward Island,"Age of business or organization, all ages",,13.0
+Prince Edward Island,"Age of business or organization, 2 years or less",,0.4
+Prince Edward Island,"Age of business or organization, 3 to 10 years old",,19.5
+Prince Edward Island,"Age of business or organization, 11 to 20 years old",,7.1
+Prince Edward Island,"Age of business or organization, more than 20 years old",,12.7
+Prince Edward Island,"Geography, all geography",,13.0
+Prince Edward Island,Urban,,12.1
+Prince Edward Island,Rural,,14.5
+Prince Edward Island,"Majority ownership, all ownerships",,13.6
+Prince Edward Island,"Majority ownership, woman",,16.9
+Prince Edward Island,"Majority ownership, First Nations, Métis or Inuit",,0.0
+Prince Edward Island,"Majority ownership, immigrant to Canada",,17.0
+Prince Edward Island,"Majority ownership, person with a disability",,
+Prince Edward Island,"Majority ownership, LGBTQ2 people",,4.7
+Prince Edward Island,"Majority ownership, visible minority",,11.5
+Prince Edward Island,"Ownership by visible minority, all visible minorities",,11.5
+Prince Edward Island,"Ownership by visible minority, South Asian",,4.5
+Prince Edward Island,"Ownership by visible minority, Chinese",,23.0
+Prince Edward Island,"Ownership by visible minority, Black",,0.0
+Prince Edward Island,"Ownership by visible minority, Filipino",,
+Prince Edward Island,"Ownership by visible minority, Latin American",,
+Prince Edward Island,"Ownership by visible minority, Arab",,0.0
+Prince Edward Island,"Ownership by visible minority, Southeast Asian",,0.0
+Prince Edward Island,"Ownership by visible minority, West Asian",,
+Prince Edward Island,"Ownership by visible minority, Korean",,
+Prince Edward Island,"Ownership by visible minority, Japanese",,
+Prince Edward Island,"Ownership by visible minority, other visible minority",,0.0
+Prince Edward Island,"Ownership by visible minority, preferred not to say",,0.0
+Prince Edward Island,"Business or organization activity in the last 12 months, all business or organization activities",,13.0
+Prince Edward Island,Exported goods outside of Canada,,14.0
+Prince Edward Island,Exported services outside of Canada,,8.1
+Prince Edward Island,Made investments outside of Canada,,
+Prince Edward Island,Sold goods to businesses in Canada who then resold them outside of Canada,,0.0
+Prince Edward Island,Imported goods from outside of Canada,,23.2
+Prince Edward Island,Imported services from outside of Canada,,12.2
+Prince Edward Island,Relocated any business or organizational activities or employees from another country into Canada,,
+Prince Edward Island,Relocated any business or organizational activities or employees from Canada to another country,,0.0
+Prince Edward Island,Engaged in other international business activities,,0.0
+Prince Edward Island,"Business or organization activity, none or other",,11.1
+Nova Scotia,"North American Industry Classification System (NAICS), all industries",,13.2
+Nova Scotia,"Agriculture, forestry, fishing and hunting",11,5.8
+Nova Scotia,"Mining, quarrying, and oil and gas extraction",21,0.0
+Nova Scotia,Construction,23,7.8
+Nova Scotia,Manufacturing,31-33,26.6
+Nova Scotia,Wholesale trade,41,27.6
+Nova Scotia,Retail trade,44-45,21.4
+Nova Scotia,Transportation and warehousing,48-49,2.8
+Nova Scotia,Information and cultural industries,51,2.7
+Nova Scotia,Finance and insurance,52,0.6
+Nova Scotia,Real estate and rental and leasing,53,9.4
+Nova Scotia,"Professional, scientific and technical services",54,4.9
+Nova Scotia,"Administrative and support, waste management and remediation services",56,19.2
+Nova Scotia,Health care and social assistance,62,8.5
+Nova Scotia,"Arts, entertainment and recreation",71,14.4
+Nova Scotia,Accommodation and food services,72,31.9
+Nova Scotia,Other services (except public administration),81,10.7
+Nova Scotia,"Business or organization size of employment, all employment sizes",,13.2
+Nova Scotia,1 to 4 employees,,8.6
+Nova Scotia,5 to 19 employees,,18.5
+Nova Scotia,20 to 99 employees,,16.2
+Nova Scotia,100 or more employees,,21.1
+Nova Scotia,"Business or organization type, all businesses or organizations",,13.2
+Nova Scotia,Government agencies,,0.0
+Nova Scotia,Private sector businesses,,13.6
+Nova Scotia,Non-profit organizations,,10.1
+Nova Scotia,Non-profit organizations serving households or individuals,,11.1
+Nova Scotia,Non-profit organizations serving businesses,,1.8
+Nova Scotia,"Age of business or organization, all ages",,13.2
+Nova Scotia,"Age of business or organization, 2 years or less",,
+Nova Scotia,"Age of business or organization, 3 to 10 years old",,19.1
+Nova Scotia,"Age of business or organization, 11 to 20 years old",,9.1
+Nova Scotia,"Age of business or organization, more than 20 years old",,10.1
+Nova Scotia,"Geography, all geography",,13.2
+Nova Scotia,Urban,,15.2
+Nova Scotia,Rural,,9.4
+Nova Scotia,"Majority ownership, all ownerships",,13.6
+Nova Scotia,"Majority ownership, woman",,14.5
+Nova Scotia,"Majority ownership, First Nations, Métis or Inuit",,14.4
+Nova Scotia,"Majority ownership, immigrant to Canada",,23.4
+Nova Scotia,"Majority ownership, person with a disability",,18.6
+Nova Scotia,"Majority ownership, LGBTQ2 people",,19.9
+Nova Scotia,"Majority ownership, visible minority",,22.9
+Nova Scotia,"Ownership by visible minority, all visible minorities",,22.9
+Nova Scotia,"Ownership by visible minority, South Asian",,
+Nova Scotia,"Ownership by visible minority, Chinese",,0.1
+Nova Scotia,"Ownership by visible minority, Black",,
+Nova Scotia,"Ownership by visible minority, Filipino",,
+Nova Scotia,"Ownership by visible minority, Latin American",,0.0
+Nova Scotia,"Ownership by visible minority, Arab",,9.2
+Nova Scotia,"Ownership by visible minority, Southeast Asian",,0.0
+Nova Scotia,"Ownership by visible minority, West Asian",,0.0
+Nova Scotia,"Ownership by visible minority, Korean",,5.7
+Nova Scotia,"Ownership by visible minority, Japanese",,
+Nova Scotia,"Ownership by visible minority, other visible minority",,0.0
+Nova Scotia,"Ownership by visible minority, preferred not to say",,
+Nova Scotia,"Business or organization activity in the last 12 months, all business or organization activities",,13.2
+Nova Scotia,Exported goods outside of Canada,,22.9
+Nova Scotia,Exported services outside of Canada,,7.8
+Nova Scotia,Made investments outside of Canada,,11.9
+Nova Scotia,Sold goods to businesses in Canada who then resold them outside of Canada,,
+Nova Scotia,Imported goods from outside of Canada,,20.5
+Nova Scotia,Imported services from outside of Canada,,23.3
+Nova Scotia,Relocated any business or organizational activities or employees from another country into Canada,,13.1
+Nova Scotia,Relocated any business or organizational activities or employees from Canada to another country,,0.0
+Nova Scotia,Engaged in other international business activities,,
+Nova Scotia,"Business or organization activity, none or other",,11.4
+New Brunswick,"North American Industry Classification System (NAICS), all industries",,13.2
+New Brunswick,"Agriculture, forestry, fishing and hunting",11,0.1
+New Brunswick,"Mining, quarrying, and oil and gas extraction",21,5.9
+New Brunswick,Construction,23,3.9
+New Brunswick,Manufacturing,31-33,29.3
+New Brunswick,Wholesale trade,41,16.4
+New Brunswick,Retail trade,44-45,25.1
+New Brunswick,Transportation and warehousing,48-49,14.1
+New Brunswick,Information and cultural industries,51,15.3
+New Brunswick,Finance and insurance,52,7.5
+New Brunswick,Real estate and rental and leasing,53,15.3
+New Brunswick,"Professional, scientific and technical services",54,8.6
+New Brunswick,"Administrative and support, waste management and remediation services",56,4.4
+New Brunswick,Health care and social assistance,62,9.3
+New Brunswick,"Arts, entertainment and recreation",71,14.3
+New Brunswick,Accommodation and food services,72,30.7
+New Brunswick,Other services (except public administration),81,9.7
+New Brunswick,"Business or organization size of employment, all employment sizes",,13.2
+New Brunswick,1 to 4 employees,,7.7
+New Brunswick,5 to 19 employees,,14.7
+New Brunswick,20 to 99 employees,,28.3
+New Brunswick,100 or more employees,,18.0
+New Brunswick,"Business or organization type, all businesses or organizations",,13.2
+New Brunswick,Government agencies,,0.0
+New Brunswick,Private sector businesses,,13.8
+New Brunswick,Non-profit organizations,,7.5
+New Brunswick,Non-profit organizations serving households or individuals,,8.9
+New Brunswick,Non-profit organizations serving businesses,,0.0
+New Brunswick,"Age of business or organization, all ages",,13.2
+New Brunswick,"Age of business or organization, 2 years or less",,16.4
+New Brunswick,"Age of business or organization, 3 to 10 years old",,16.5
+New Brunswick,"Age of business or organization, 11 to 20 years old",,13.3
+New Brunswick,"Age of business or organization, more than 20 years old",,10.2
+New Brunswick,"Geography, all geography",,13.2
+New Brunswick,Urban,,17.5
+New Brunswick,Rural,,5.7
+New Brunswick,"Majority ownership, all ownerships",,13.8
+New Brunswick,"Majority ownership, woman",,16.1
+New Brunswick,"Majority ownership, First Nations, Métis or Inuit",,0.7
+New Brunswick,"Majority ownership, immigrant to Canada",,35.1
+New Brunswick,"Majority ownership, person with a disability",,1.9
+New Brunswick,"Majority ownership, LGBTQ2 people",,8.6
+New Brunswick,"Majority ownership, visible minority",,29.3
+New Brunswick,"Ownership by visible minority, all visible minorities",,29.3
+New Brunswick,"Ownership by visible minority, South Asian",,
+New Brunswick,"Ownership by visible minority, Chinese",,6.4
+New Brunswick,"Ownership by visible minority, Black",,0.0
+New Brunswick,"Ownership by visible minority, Filipino",,0.0
+New Brunswick,"Ownership by visible minority, Latin American",,0.0
+New Brunswick,"Ownership by visible minority, Arab",,0.0
+New Brunswick,"Ownership by visible minority, Southeast Asian",,0.0
+New Brunswick,"Ownership by visible minority, West Asian",,
+New Brunswick,"Ownership by visible minority, Korean",,
+New Brunswick,"Ownership by visible minority, Japanese",,0.0
+New Brunswick,"Ownership by visible minority, other visible minority",,
+New Brunswick,"Ownership by visible minority, preferred not to say",,0.0
+New Brunswick,"Business or organization activity in the last 12 months, all business or organization activities",,13.2
+New Brunswick,Exported goods outside of Canada,,9.9
+New Brunswick,Exported services outside of Canada,,4.0
+New Brunswick,Made investments outside of Canada,,
+New Brunswick,Sold goods to businesses in Canada who then resold them outside of Canada,,
+New Brunswick,Imported goods from outside of Canada,,28.2
+New Brunswick,Imported services from outside of Canada,,35.7
+New Brunswick,Relocated any business or organizational activities or employees from another country into Canada,,0.0
+New Brunswick,Relocated any business or organizational activities or employees from Canada to another country,,3.3
+New Brunswick,Engaged in other international business activities,,
+New Brunswick,"Business or organization activity, none or other",,11.5
+Quebec,"North American Industry Classification System (NAICS), all industries",,16.2
+Quebec,"Agriculture, forestry, fishing and hunting",11,1.6
+Quebec,"Mining, quarrying, and oil and gas extraction",21,8.9
+Quebec,Construction,23,8.0
+Quebec,Manufacturing,31-33,20.9
+Quebec,Wholesale trade,41,23.7
+Quebec,Retail trade,44-45,32.0
+Quebec,Transportation and warehousing,48-49,8.9
+Quebec,Information and cultural industries,51,17.6
+Quebec,Finance and insurance,52,2.7
+Quebec,Real estate and rental and leasing,53,3.9
+Quebec,"Professional, scientific and technical services",54,10.5
+Quebec,"Administrative and support, waste management and remediation services",56,31.1
+Quebec,Health care and social assistance,62,12.1
+Quebec,"Arts, entertainment and recreation",71,25.9
+Quebec,Accommodation and food services,72,26.2
+Quebec,Other services (except public administration),81,19.2
+Quebec,"Business or organization size of employment, all employment sizes",,16.2
+Quebec,1 to 4 employees,,9.0
+Quebec,5 to 19 employees,,19.6
+Quebec,20 to 99 employees,,31.5
+Quebec,100 or more employees,,32.4
+Quebec,"Business or organization type, all businesses or organizations",,16.2
+Quebec,Government agencies,,16.3
+Quebec,Private sector businesses,,14.9
+Quebec,Non-profit organizations,,31.7
+Quebec,Non-profit organizations serving households or individuals,,18.0
+Quebec,Non-profit organizations serving businesses,,74.8
+Quebec,"Age of business or organization, all ages",,16.2
+Quebec,"Age of business or organization, 2 years or less",,
+Quebec,"Age of business or organization, 3 to 10 years old",,10.5
+Quebec,"Age of business or organization, 11 to 20 years old",,16.7
+Quebec,"Age of business or organization, more than 20 years old",,22.0
+Quebec,"Geography, all geography",,16.2
+Quebec,Urban,,17.0
+Quebec,Rural,,12.5
+Quebec,"Majority ownership, all ownerships",,14.9
+Quebec,"Majority ownership, woman",,22.0
+Quebec,"Majority ownership, First Nations, Métis or Inuit",,4.8
+Quebec,"Majority ownership, immigrant to Canada",,16.9
+Quebec,"Majority ownership, person with a disability",,22.1
+Quebec,"Majority ownership, LGBTQ2 people",,19.6
+Quebec,"Majority ownership, visible minority",,12.6
+Quebec,"Ownership by visible minority, all visible minorities",,12.6
+Quebec,"Ownership by visible minority, South Asian",,17.2
+Quebec,"Ownership by visible minority, Chinese",,0.8
+Quebec,"Ownership by visible minority, Black",,
+Quebec,"Ownership by visible minority, Filipino",,0.0
+Quebec,"Ownership by visible minority, Latin American",,0.0
+Quebec,"Ownership by visible minority, Arab",,
+Quebec,"Ownership by visible minority, Southeast Asian",,
+Quebec,"Ownership by visible minority, West Asian",,0.0
+Quebec,"Ownership by visible minority, Korean",,
+Quebec,"Ownership by visible minority, Japanese",,
+Quebec,"Ownership by visible minority, other visible minority",,
+Quebec,"Ownership by visible minority, preferred not to say",,0.3
+Quebec,"Business or organization activity in the last 12 months, all business or organization activities",,16.2
+Quebec,Exported goods outside of Canada,,32.7
+Quebec,Exported services outside of Canada,,10.1
+Quebec,Made investments outside of Canada,,12.8
+Quebec,Sold goods to businesses in Canada who then resold them outside of Canada,,29.2
+Quebec,Imported goods from outside of Canada,,25.6
+Quebec,Imported services from outside of Canada,,14.1
+Quebec,Relocated any business or organizational activities or employees from another country into Canada,,
+Quebec,Relocated any business or organizational activities or employees from Canada to another country,,
+Quebec,Engaged in other international business activities,,1.9
+Quebec,"Business or organization activity, none or other",,14.4
+Ontario,"North American Industry Classification System (NAICS), all industries",,15.9
+Ontario,"Agriculture, forestry, fishing and hunting",11,18.2
+Ontario,"Mining, quarrying, and oil and gas extraction",21,12.6
+Ontario,Construction,23,9.2
+Ontario,Manufacturing,31-33,27.1
+Ontario,Wholesale trade,41,22.3
+Ontario,Retail trade,44-45,13.9
+Ontario,Transportation and warehousing,48-49,19.8
+Ontario,Information and cultural industries,51,19.9
+Ontario,Finance and insurance,52,0.0
+Ontario,Real estate and rental and leasing,53,4.8
+Ontario,"Professional, scientific and technical services",54,8.3
+Ontario,"Administrative and support, waste management and remediation services",56,16.9
+Ontario,Health care and social assistance,62,18.4
+Ontario,"Arts, entertainment and recreation",71,13.7
+Ontario,Accommodation and food services,72,27.3
+Ontario,Other services (except public administration),81,25.7
+Ontario,"Business or organization size of employment, all employment sizes",,15.9
+Ontario,1 to 4 employees,,12.1
+Ontario,5 to 19 employees,,22.0
+Ontario,20 to 99 employees,,15.9
+Ontario,100 or more employees,,30.2
+Ontario,"Business or organization type, all businesses or organizations",,15.9
+Ontario,Government agencies,,
+Ontario,Private sector businesses,,16.2
+Ontario,Non-profit organizations,,10.6
+Ontario,Non-profit organizations serving households or individuals,,11.0
+Ontario,Non-profit organizations serving businesses,,4.5
+Ontario,"Age of business or organization, all ages",,15.9
+Ontario,"Age of business or organization, 2 years or less",,15.8
+Ontario,"Age of business or organization, 3 to 10 years old",,16.8
+Ontario,"Age of business or organization, 11 to 20 years old",,14.2
+Ontario,"Age of business or organization, more than 20 years old",,16.2
+Ontario,"Geography, all geography",,15.9
+Ontario,Urban,,16.3
+Ontario,Rural,,11.3
+Ontario,"Majority ownership, all ownerships",,16.2
+Ontario,"Majority ownership, woman",,20.5
+Ontario,"Majority ownership, First Nations, Métis or Inuit",,22.0
+Ontario,"Majority ownership, immigrant to Canada",,16.5
+Ontario,"Majority ownership, person with a disability",,17.6
+Ontario,"Majority ownership, LGBTQ2 people",,9.9
+Ontario,"Majority ownership, visible minority",,16.2
+Ontario,"Ownership by visible minority, all visible minorities",,16.2
+Ontario,"Ownership by visible minority, South Asian",,18.7
+Ontario,"Ownership by visible minority, Chinese",,16.6
+Ontario,"Ownership by visible minority, Black",,
+Ontario,"Ownership by visible minority, Filipino",,
+Ontario,"Ownership by visible minority, Latin American",,6.4
+Ontario,"Ownership by visible minority, Arab",,8.9
+Ontario,"Ownership by visible minority, Southeast Asian",,
+Ontario,"Ownership by visible minority, West Asian",,
+Ontario,"Ownership by visible minority, Korean",,0.6
+Ontario,"Ownership by visible minority, Japanese",,
+Ontario,"Ownership by visible minority, other visible minority",,0.3
+Ontario,"Ownership by visible minority, preferred not to say",,2.6
+Ontario,"Business or organization activity in the last 12 months, all business or organization activities",,15.9
+Ontario,Exported goods outside of Canada,,22.0
+Ontario,Exported services outside of Canada,,
+Ontario,Made investments outside of Canada,,4.9
+Ontario,Sold goods to businesses in Canada who then resold them outside of Canada,,31.0
+Ontario,Imported goods from outside of Canada,,27.8
+Ontario,Imported services from outside of Canada,,18.1
+Ontario,Relocated any business or organizational activities or employees from another country into Canada,,9.6
+Ontario,Relocated any business or organizational activities or employees from Canada to another country,,10.2
+Ontario,Engaged in other international business activities,,21.9
+Ontario,"Business or organization activity, none or other",,14.3
+Manitoba,"North American Industry Classification System (NAICS), all industries",,18.2
+Manitoba,"Agriculture, forestry, fishing and hunting",11,21.9
+Manitoba,"Mining, quarrying, and oil and gas extraction",21,0.0
+Manitoba,Construction,23,9.2
+Manitoba,Manufacturing,31-33,26.8
+Manitoba,Wholesale trade,41,26.2
+Manitoba,Retail trade,44-45,33.2
+Manitoba,Transportation and warehousing,48-49,16.9
+Manitoba,Information and cultural industries,51,4.0
+Manitoba,Finance and insurance,52,1.6
+Manitoba,Real estate and rental and leasing,53,17.9
+Manitoba,"Professional, scientific and technical services",54,4.7
+Manitoba,"Administrative and support, waste management and remediation services",56,17.2
+Manitoba,Health care and social assistance,62,9.4
+Manitoba,"Arts, entertainment and recreation",71,17.3
+Manitoba,Accommodation and food services,72,18.9
+Manitoba,Other services (except public administration),81,29.4
+Manitoba,"Business or organization size of employment, all employment sizes",,18.2
+Manitoba,1 to 4 employees,,20.3
+Manitoba,5 to 19 employees,,14.3
+Manitoba,20 to 99 employees,,21.4
+Manitoba,100 or more employees,,12.8
+Manitoba,"Business or organization type, all businesses or organizations",,18.2
+Manitoba,Government agencies,,0.0
+Manitoba,Private sector businesses,,18.0
+Manitoba,Non-profit organizations,,20.8
+Manitoba,Non-profit organizations serving households or individuals,,19.6
+Manitoba,Non-profit organizations serving businesses,,
+Manitoba,"Age of business or organization, all ages",,18.2
+Manitoba,"Age of business or organization, 2 years or less",,6.1
+Manitoba,"Age of business or organization, 3 to 10 years old",,22.9
+Manitoba,"Age of business or organization, 11 to 20 years old",,23.6
+Manitoba,"Age of business or organization, more than 20 years old",,14.1
+Manitoba,"Geography, all geography",,18.2
+Manitoba,Urban,,17.1
+Manitoba,Rural,,21.5
+Manitoba,"Majority ownership, all ownerships",,18.0
+Manitoba,"Majority ownership, woman",,25.4
+Manitoba,"Majority ownership, First Nations, Métis or Inuit",,23.5
+Manitoba,"Majority ownership, immigrant to Canada",,12.5
+Manitoba,"Majority ownership, person with a disability",,19.6
+Manitoba,"Majority ownership, LGBTQ2 people",,5.6
+Manitoba,"Majority ownership, visible minority",,7.8
+Manitoba,"Ownership by visible minority, all visible minorities",,7.8
+Manitoba,"Ownership by visible minority, South Asian",,8.1
+Manitoba,"Ownership by visible minority, Chinese",,5.5
+Manitoba,"Ownership by visible minority, Black",,
+Manitoba,"Ownership by visible minority, Filipino",,6.0
+Manitoba,"Ownership by visible minority, Latin American",,4.1
+Manitoba,"Ownership by visible minority, Arab",,6.7
+Manitoba,"Ownership by visible minority, Southeast Asian",,0.0
+Manitoba,"Ownership by visible minority, West Asian",,0.0
+Manitoba,"Ownership by visible minority, Korean",,0.0
+Manitoba,"Ownership by visible minority, Japanese",,0.0
+Manitoba,"Ownership by visible minority, other visible minority",,
+Manitoba,"Ownership by visible minority, preferred not to say",,0.0
+Manitoba,"Business or organization activity in the last 12 months, all business or organization activities",,18.2
+Manitoba,Exported goods outside of Canada,,31.2
+Manitoba,Exported services outside of Canada,,14.2
+Manitoba,Made investments outside of Canada,,0.4
+Manitoba,Sold goods to businesses in Canada who then resold them outside of Canada,,8.6
+Manitoba,Imported goods from outside of Canada,,35.4
+Manitoba,Imported services from outside of Canada,,18.2
+Manitoba,Relocated any business or organizational activities or employees from another country into Canada,,92.5
+Manitoba,Relocated any business or organizational activities or employees from Canada to another country,,10.3
+Manitoba,Engaged in other international business activities,,0.8
+Manitoba,"Business or organization activity, none or other",,14.5
+Saskatchewan,"North American Industry Classification System (NAICS), all industries",,13.5
+Saskatchewan,"Agriculture, forestry, fishing and hunting",11,6.8
+Saskatchewan,"Mining, quarrying, and oil and gas extraction",21,1.4
+Saskatchewan,Construction,23,15.6
+Saskatchewan,Manufacturing,31-33,22.2
+Saskatchewan,Wholesale trade,41,8.7
+Saskatchewan,Retail trade,44-45,12.2
+Saskatchewan,Transportation and warehousing,48-49,19.4
+Saskatchewan,Information and cultural industries,51,18.0
+Saskatchewan,Finance and insurance,52,8.4
+Saskatchewan,Real estate and rental and leasing,53,0.4
+Saskatchewan,"Professional, scientific and technical services",54,3.2
+Saskatchewan,"Administrative and support, waste management and remediation services",56,7.9
+Saskatchewan,Health care and social assistance,62,14.2
+Saskatchewan,"Arts, entertainment and recreation",71,27.9
+Saskatchewan,Accommodation and food services,72,43.1
+Saskatchewan,Other services (except public administration),81,10.1
+Saskatchewan,"Business or organization size of employment, all employment sizes",,13.5
+Saskatchewan,1 to 4 employees,,11.3
+Saskatchewan,5 to 19 employees,,16.4
+Saskatchewan,20 to 99 employees,,12.8
+Saskatchewan,100 or more employees,,34.1
+Saskatchewan,"Business or organization type, all businesses or organizations",,13.5
+Saskatchewan,Government agencies,,0.0
+Saskatchewan,Private sector businesses,,14.3
+Saskatchewan,Non-profit organizations,,5.9
+Saskatchewan,Non-profit organizations serving households or individuals,,5.4
+Saskatchewan,Non-profit organizations serving businesses,,9.3
+Saskatchewan,"Age of business or organization, all ages",,13.5
+Saskatchewan,"Age of business or organization, 2 years or less",,15.8
+Saskatchewan,"Age of business or organization, 3 to 10 years old",,12.2
+Saskatchewan,"Age of business or organization, 11 to 20 years old",,18.0
+Saskatchewan,"Age of business or organization, more than 20 years old",,10.4
+Saskatchewan,"Geography, all geography",,13.5
+Saskatchewan,Urban,,13.6
+Saskatchewan,Rural,,13.2
+Saskatchewan,"Majority ownership, all ownerships",,14.3
+Saskatchewan,"Majority ownership, woman",,11.8
+Saskatchewan,"Majority ownership, First Nations, Métis or Inuit",,9.8
+Saskatchewan,"Majority ownership, immigrant to Canada",,15.3
+Saskatchewan,"Majority ownership, person with a disability",,10.7
+Saskatchewan,"Majority ownership, LGBTQ2 people",,3.4
+Saskatchewan,"Majority ownership, visible minority",,12.0
+Saskatchewan,"Ownership by visible minority, all visible minorities",,12.0
+Saskatchewan,"Ownership by visible minority, South Asian",,16.1
+Saskatchewan,"Ownership by visible minority, Chinese",,10.6
+Saskatchewan,"Ownership by visible minority, Black",,0.0
+Saskatchewan,"Ownership by visible minority, Filipino",,
+Saskatchewan,"Ownership by visible minority, Latin American",,0.0
+Saskatchewan,"Ownership by visible minority, Arab",,0.0
+Saskatchewan,"Ownership by visible minority, Southeast Asian",,0.0
+Saskatchewan,"Ownership by visible minority, West Asian",,
+Saskatchewan,"Ownership by visible minority, Korean",,0.0
+Saskatchewan,"Ownership by visible minority, Japanese",,
+Saskatchewan,"Ownership by visible minority, other visible minority",,
+Saskatchewan,"Ownership by visible minority, preferred not to say",,19.4
+Saskatchewan,"Business or organization activity in the last 12 months, all business or organization activities",,13.5
+Saskatchewan,Exported goods outside of Canada,,11.0
+Saskatchewan,Exported services outside of Canada,,3.8
+Saskatchewan,Made investments outside of Canada,,2.6
+Saskatchewan,Sold goods to businesses in Canada who then resold them outside of Canada,,9.8
+Saskatchewan,Imported goods from outside of Canada,,20.9
+Saskatchewan,Imported services from outside of Canada,,12.8
+Saskatchewan,Relocated any business or organizational activities or employees from another country into Canada,,5.6
+Saskatchewan,Relocated any business or organizational activities or employees from Canada to another country,,88.5
+Saskatchewan,Engaged in other international business activities,,4.0
+Saskatchewan,"Business or organization activity, none or other",,11.9
+Alberta,"North American Industry Classification System (NAICS), all industries",,12.7
+Alberta,"Agriculture, forestry, fishing and hunting",11,9.7
+Alberta,"Mining, quarrying, and oil and gas extraction",21,13.2
+Alberta,Construction,23,4.6
+Alberta,Manufacturing,31-33,26.1
+Alberta,Wholesale trade,41,11.3
+Alberta,Retail trade,44-45,8.5
+Alberta,Transportation and warehousing,48-49,13.7
+Alberta,Information and cultural industries,51,7.6
+Alberta,Finance and insurance,52,11.2
+Alberta,Real estate and rental and leasing,53,7.3
+Alberta,"Professional, scientific and technical services",54,4.2
+Alberta,"Administrative and support, waste management and remediation services",56,8.6
+Alberta,Health care and social assistance,62,29.4
+Alberta,"Arts, entertainment and recreation",71,16.3
+Alberta,Accommodation and food services,72,21.8
+Alberta,Other services (except public administration),81,20.3
+Alberta,"Business or organization size of employment, all employment sizes",,12.7
+Alberta,1 to 4 employees,,12.2
+Alberta,5 to 19 employees,,10.4
+Alberta,20 to 99 employees,,18.6
+Alberta,100 or more employees,,34.4
+Alberta,"Business or organization type, all businesses or organizations",,12.7
+Alberta,Government agencies,,2.2
+Alberta,Private sector businesses,,13.1
+Alberta,Non-profit organizations,,7.3
+Alberta,Non-profit organizations serving households or individuals,,8.9
+Alberta,Non-profit organizations serving businesses,,0.8
+Alberta,"Age of business or organization, all ages",,12.7
+Alberta,"Age of business or organization, 2 years or less",,14.2
+Alberta,"Age of business or organization, 3 to 10 years old",,15.1
+Alberta,"Age of business or organization, 11 to 20 years old",,10.5
+Alberta,"Age of business or organization, more than 20 years old",,12.5
+Alberta,"Geography, all geography",,12.7
+Alberta,Urban,,14.4
+Alberta,Rural,,5.5
+Alberta,"Majority ownership, all ownerships",,13.1
+Alberta,"Majority ownership, woman",,16.6
+Alberta,"Majority ownership, First Nations, Métis or Inuit",,5.8
+Alberta,"Majority ownership, immigrant to Canada",,17.8
+Alberta,"Majority ownership, person with a disability",,0.0
+Alberta,"Majority ownership, LGBTQ2 people",,0.2
+Alberta,"Majority ownership, visible minority",,24.6
+Alberta,"Ownership by visible minority, all visible minorities",,24.6
+Alberta,"Ownership by visible minority, South Asian",,
+Alberta,"Ownership by visible minority, Chinese",,21.2
+Alberta,"Ownership by visible minority, Black",,4.9
+Alberta,"Ownership by visible minority, Filipino",,99.7
+Alberta,"Ownership by visible minority, Latin American",,
+Alberta,"Ownership by visible minority, Arab",,
+Alberta,"Ownership by visible minority, Southeast Asian",,90.8
+Alberta,"Ownership by visible minority, West Asian",,4.6
+Alberta,"Ownership by visible minority, Korean",,0.1
+Alberta,"Ownership by visible minority, Japanese",,100.0
+Alberta,"Ownership by visible minority, other visible minority",,0.0
+Alberta,"Ownership by visible minority, preferred not to say",,0.0
+Alberta,"Business or organization activity in the last 12 months, all business or organization activities",,12.7
+Alberta,Exported goods outside of Canada,,23.0
+Alberta,Exported services outside of Canada,,3.0
+Alberta,Made investments outside of Canada,,
+Alberta,Sold goods to businesses in Canada who then resold them outside of Canada,,16.0
+Alberta,Imported goods from outside of Canada,,23.5
+Alberta,Imported services from outside of Canada,,9.1
+Alberta,Relocated any business or organizational activities or employees from another country into Canada,,1.1
+Alberta,Relocated any business or organizational activities or employees from Canada to another country,,0.0
+Alberta,Engaged in other international business activities,,11.3
+Alberta,"Business or organization activity, none or other",,11.8
+British Columbia,"North American Industry Classification System (NAICS), all industries",,15.9
+British Columbia,"Agriculture, forestry, fishing and hunting",11,18.8
+British Columbia,"Mining, quarrying, and oil and gas extraction",21,0.4
+British Columbia,Construction,23,15.2
+British Columbia,Manufacturing,31-33,28.4
+British Columbia,Wholesale trade,41,34.8
+British Columbia,Retail trade,44-45,21.1
+British Columbia,Transportation and warehousing,48-49,2.9
+British Columbia,Information and cultural industries,51,5.3
+British Columbia,Finance and insurance,52,5.8
+British Columbia,Real estate and rental and leasing,53,15.2
+British Columbia,"Professional, scientific and technical services",54,2.5
+British Columbia,"Administrative and support, waste management and remediation services",56,17.7
+British Columbia,Health care and social assistance,62,12.8
+British Columbia,"Arts, entertainment and recreation",71,29.5
+British Columbia,Accommodation and food services,72,15.7
+British Columbia,Other services (except public administration),81,26.6
+British Columbia,"Business or organization size of employment, all employment sizes",,15.9
+British Columbia,1 to 4 employees,,10.6
+British Columbia,5 to 19 employees,,21.9
+British Columbia,20 to 99 employees,,23.5
+British Columbia,100 or more employees,,21.9
+British Columbia,"Business or organization type, all businesses or organizations",,15.9
+British Columbia,Government agencies,,
+British Columbia,Private sector businesses,,15.4
+British Columbia,Non-profit organizations,,12.8
+British Columbia,Non-profit organizations serving households or individuals,,15.8
+British Columbia,Non-profit organizations serving businesses,,0.2
+British Columbia,"Age of business or organization, all ages",,15.9
+British Columbia,"Age of business or organization, 2 years or less",,10.1
+British Columbia,"Age of business or organization, 3 to 10 years old",,15.8
+British Columbia,"Age of business or organization, 11 to 20 years old",,14.4
+British Columbia,"Age of business or organization, more than 20 years old",,17.9
+British Columbia,"Geography, all geography",,15.9
+British Columbia,Urban,,16.3
+British Columbia,Rural,,13.0
+British Columbia,"Majority ownership, all ownerships",,15.4
+British Columbia,"Majority ownership, woman",,12.6
+British Columbia,"Majority ownership, First Nations, Métis or Inuit",,10.9
+British Columbia,"Majority ownership, immigrant to Canada",,11.6
+British Columbia,"Majority ownership, person with a disability",,0.2
+British Columbia,"Majority ownership, LGBTQ2 people",,19.2
+British Columbia,"Majority ownership, visible minority",,13.5
+British Columbia,"Ownership by visible minority, all visible minorities",,13.5
+British Columbia,"Ownership by visible minority, South Asian",,16.4
+British Columbia,"Ownership by visible minority, Chinese",,14.6
+British Columbia,"Ownership by visible minority, Black",,2.7
+British Columbia,"Ownership by visible minority, Filipino",,0.0
+British Columbia,"Ownership by visible minority, Latin American",,2.1
+British Columbia,"Ownership by visible minority, Arab",,7.5
+British Columbia,"Ownership by visible minority, Southeast Asian",,0.0
+British Columbia,"Ownership by visible minority, West Asian",,0.0
+British Columbia,"Ownership by visible minority, Korean",,0.0
+British Columbia,"Ownership by visible minority, Japanese",,
+British Columbia,"Ownership by visible minority, other visible minority",,
+British Columbia,"Ownership by visible minority, preferred not to say",,
+British Columbia,"Business or organization activity in the last 12 months, all business or organization activities",,15.9
+British Columbia,Exported goods outside of Canada,,28.6
+British Columbia,Exported services outside of Canada,,7.9
+British Columbia,Made investments outside of Canada,,76.7
+British Columbia,Sold goods to businesses in Canada who then resold them outside of Canada,,12.1
+British Columbia,Imported goods from outside of Canada,,28.8
+British Columbia,Imported services from outside of Canada,,29.1
+British Columbia,Relocated any business or organizational activities or employees from another country into Canada,,
+British Columbia,Relocated any business or organizational activities or employees from Canada to another country,,94.1
+British Columbia,Engaged in other international business activities,,7.3
+British Columbia,"Business or organization activity, none or other",,13.5
+Yukon,"North American Industry Classification System (NAICS), all industries",,8.3
+Yukon,"Agriculture, forestry, fishing and hunting",11,0.0
+Yukon,"Mining, quarrying, and oil and gas extraction",21,0.0
+Yukon,Construction,23,8.2
+Yukon,Manufacturing,31-33,16.3
+Yukon,Wholesale trade,41,
+Yukon,Retail trade,44-45,6.6
+Yukon,Transportation and warehousing,48-49,12.2
+Yukon,Information and cultural industries,51,
+Yukon,Finance and insurance,52,0.0
+Yukon,Real estate and rental and leasing,53,0.0
+Yukon,"Professional, scientific and technical services",54,3.5
+Yukon,"Administrative and support, waste management and remediation services",56,0.0
+Yukon,Health care and social assistance,62,19.3
+Yukon,"Arts, entertainment and recreation",71,12.8
+Yukon,Accommodation and food services,72,5.5
+Yukon,Other services (except public administration),81,0.0
+Yukon,"Business or organization size of employment, all employment sizes",,8.3
+Yukon,1 to 4 employees,,1.3
+Yukon,5 to 19 employees,,14.8
+Yukon,20 to 99 employees,,13.3
+Yukon,100 or more employees,,
+Yukon,"Business or organization type, all businesses or organizations",,8.3
+Yukon,Government agencies,,0.0
+Yukon,Private sector businesses,,9.0
+Yukon,Non-profit organizations,,6.0
+Yukon,Non-profit organizations serving households or individuals,,5.8
+Yukon,Non-profit organizations serving businesses,,9.1
+Yukon,"Age of business or organization, all ages",,8.3
+Yukon,"Age of business or organization, 2 years or less",,0.0
+Yukon,"Age of business or organization, 3 to 10 years old",,6.8
+Yukon,"Age of business or organization, 11 to 20 years old",,6.0
+Yukon,"Age of business or organization, more than 20 years old",,10.7
+Yukon,"Geography, all geography",,8.3
+Yukon,Urban,,9.7
+Yukon,Rural,,3.4
+Yukon,"Majority ownership, all ownerships",,9.0
+Yukon,"Majority ownership, woman",,13.0
+Yukon,"Majority ownership, First Nations, Métis or Inuit",,4.5
+Yukon,"Majority ownership, immigrant to Canada",,0.0
+Yukon,"Majority ownership, person with a disability",,0.0
+Yukon,"Majority ownership, LGBTQ2 people",,19.6
+Yukon,"Majority ownership, visible minority",,0.0
+Yukon,"Ownership by visible minority, all visible minorities",,0.0
+Yukon,"Ownership by visible minority, South Asian",,
+Yukon,"Ownership by visible minority, Chinese",,0.0
+Yukon,"Ownership by visible minority, Black",,
+Yukon,"Ownership by visible minority, Filipino",,0.0
+Yukon,"Ownership by visible minority, Latin American",,
+Yukon,"Ownership by visible minority, Arab",,
+Yukon,"Ownership by visible minority, Southeast Asian",,0.0
+Yukon,"Ownership by visible minority, West Asian",,
+Yukon,"Ownership by visible minority, Korean",,
+Yukon,"Ownership by visible minority, Japanese",,
+Yukon,"Ownership by visible minority, other visible minority",,
+Yukon,"Ownership by visible minority, preferred not to say",,
+Yukon,"Business or organization activity in the last 12 months, all business or organization activities",,8.3
+Yukon,Exported goods outside of Canada,,
+Yukon,Exported services outside of Canada,,0.0
+Yukon,Made investments outside of Canada,,
+Yukon,Sold goods to businesses in Canada who then resold them outside of Canada,,
+Yukon,Imported goods from outside of Canada,,25.9
+Yukon,Imported services from outside of Canada,,12.2
+Yukon,Relocated any business or organizational activities or employees from another country into Canada,,
+Yukon,Relocated any business or organizational activities or employees from Canada to another country,,
+Yukon,Engaged in other international business activities,,0.0
+Yukon,"Business or organization activity, none or other",,6.1
+Northwest Territories,"North American Industry Classification System (NAICS), all industries",,17.2
+Northwest Territories,"Agriculture, forestry, fishing and hunting",11,8.0
+Northwest Territories,"Mining, quarrying, and oil and gas extraction",21,0.0
+Northwest Territories,Construction,23,17.2
+Northwest Territories,Manufacturing,31-33,
+Northwest Territories,Wholesale trade,41,3.2
+Northwest Territories,Retail trade,44-45,25.4
+Northwest Territories,Transportation and warehousing,48-49,0.9
+Northwest Territories,Information and cultural industries,51,100.0
+Northwest Territories,Finance and insurance,52,0.0
+Northwest Territories,Real estate and rental and leasing,53,
+Northwest Territories,"Professional, scientific and technical services",54,11.8
+Northwest Territories,"Administrative and support, waste management and remediation services",56,0.0
+Northwest Territories,Health care and social assistance,62,0.0
+Northwest Territories,"Arts, entertainment and recreation",71,20.2
+Northwest Territories,Accommodation and food services,72,
+Northwest Territories,Other services (except public administration),81,0.0
+Northwest Territories,"Business or organization size of employment, all employment sizes",,17.2
+Northwest Territories,1 to 4 employees,,14.4
+Northwest Territories,5 to 19 employees,,18.6
+Northwest Territories,20 to 99 employees,,19.7
+Northwest Territories,100 or more employees,,14.4
+Northwest Territories,"Business or organization type, all businesses or organizations",,17.2
+Northwest Territories,Government agencies,,
+Northwest Territories,Private sector businesses,,18.8
+Northwest Territories,Non-profit organizations,,2.1
+Northwest Territories,Non-profit organizations serving households or individuals,,2.4
+Northwest Territories,Non-profit organizations serving businesses,,0.0
+Northwest Territories,"Age of business or organization, all ages",,17.2
+Northwest Territories,"Age of business or organization, 2 years or less",,
+Northwest Territories,"Age of business or organization, 3 to 10 years old",,3.6
+Northwest Territories,"Age of business or organization, 11 to 20 years old",,22.2
+Northwest Territories,"Age of business or organization, more than 20 years old",,18.4
+Northwest Territories,"Geography, all geography",,17.2
+Northwest Territories,Urban,,19.8
+Northwest Territories,Rural,,8.8
+Northwest Territories,"Majority ownership, all ownerships",,18.8
+Northwest Territories,"Majority ownership, woman",,
+Northwest Territories,"Majority ownership, First Nations, Métis or Inuit",,11.6
+Northwest Territories,"Majority ownership, immigrant to Canada",,11.3
+Northwest Territories,"Majority ownership, person with a disability",,
+Northwest Territories,"Majority ownership, LGBTQ2 people",,90.1
+Northwest Territories,"Majority ownership, visible minority",,11.8
+Northwest Territories,"Ownership by visible minority, all visible minorities",,11.8
+Northwest Territories,"Ownership by visible minority, South Asian",,
+Northwest Territories,"Ownership by visible minority, Chinese",,0.0
+Northwest Territories,"Ownership by visible minority, Black",,0.0
+Northwest Territories,"Ownership by visible minority, Filipino",,
+Northwest Territories,"Ownership by visible minority, Latin American",,
+Northwest Territories,"Ownership by visible minority, Arab",,100.0
+Northwest Territories,"Ownership by visible minority, Southeast Asian",,100.0
+Northwest Territories,"Ownership by visible minority, West Asian",,
+Northwest Territories,"Ownership by visible minority, Korean",,
+Northwest Territories,"Ownership by visible minority, Japanese",,0.0
+Northwest Territories,"Ownership by visible minority, other visible minority",,
+Northwest Territories,"Ownership by visible minority, preferred not to say",,0.0
+Northwest Territories,"Business or organization activity in the last 12 months, all business or organization activities",,17.2
+Northwest Territories,Exported goods outside of Canada,,2.8
+Northwest Territories,Exported services outside of Canada,,
+Northwest Territories,Made investments outside of Canada,,
+Northwest Territories,Sold goods to businesses in Canada who then resold them outside of Canada,,0.0
+Northwest Territories,Imported goods from outside of Canada,,5.2
+Northwest Territories,Imported services from outside of Canada,,5.4
+Northwest Territories,Relocated any business or organizational activities or employees from another country into Canada,,0.0
+Northwest Territories,Relocated any business or organizational activities or employees from Canada to another country,,
+Northwest Territories,Engaged in other international business activities,,
+Northwest Territories,"Business or organization activity, none or other",,20.8
+Nunavut,"North American Industry Classification System (NAICS), all industries",,19.0
+Nunavut,"Agriculture, forestry, fishing and hunting",11,0.0
+Nunavut,"Mining, quarrying, and oil and gas extraction",21,0.0
+Nunavut,Construction,23,15.2
+Nunavut,Manufacturing,31-33,82.8
+Nunavut,Wholesale trade,41,0.0
+Nunavut,Retail trade,44-45,45.4
+Nunavut,Transportation and warehousing,48-49,6.3
+Nunavut,Information and cultural industries,51,
+Nunavut,Finance and insurance,52,12.8
+Nunavut,Real estate and rental and leasing,53,0.0
+Nunavut,"Professional, scientific and technical services",54,7.4
+Nunavut,"Administrative and support, waste management and remediation services",56,0.0
+Nunavut,Health care and social assistance,62,0.0
+Nunavut,"Arts, entertainment and recreation",71,
+Nunavut,Accommodation and food services,72,19.2
+Nunavut,Other services (except public administration),81,0.0
+Nunavut,"Business or organization size of employment, all employment sizes",,19.0
+Nunavut,1 to 4 employees,,16.4
+Nunavut,5 to 19 employees,,21.1
+Nunavut,20 to 99 employees,,21.3
+Nunavut,100 or more employees,,0.0
+Nunavut,"Business or organization type, all businesses or organizations",,19.0
+Nunavut,Government agencies,,
+Nunavut,Private sector businesses,,20.8
+Nunavut,Non-profit organizations,,10.0
+Nunavut,Non-profit organizations serving households or individuals,,0.0
+Nunavut,Non-profit organizations serving businesses,,15.7
+Nunavut,"Age of business or organization, all ages",,19.0
+Nunavut,"Age of business or organization, 2 years or less",,0.0
+Nunavut,"Age of business or organization, 3 to 10 years old",,35.8
+Nunavut,"Age of business or organization, 11 to 20 years old",,44.0
+Nunavut,"Age of business or organization, more than 20 years old",,12.1
+Nunavut,"Geography, all geography",,19.0
+Nunavut,Urban,,
+Nunavut,Rural,,19.0
+Nunavut,"Majority ownership, all ownerships",,20.8
+Nunavut,"Majority ownership, woman",,
+Nunavut,"Majority ownership, First Nations, Métis or Inuit",,20.4
+Nunavut,"Majority ownership, immigrant to Canada",,
+Nunavut,"Majority ownership, person with a disability",,100.0
+Nunavut,"Majority ownership, LGBTQ2 people",,0.0
+Nunavut,"Majority ownership, visible minority",,12.0
+Nunavut,"Ownership by visible minority, all visible minorities",,12.0
+Nunavut,"Ownership by visible minority, South Asian",,
+Nunavut,"Ownership by visible minority, Chinese",,0.0
+Nunavut,"Ownership by visible minority, Black",,
+Nunavut,"Ownership by visible minority, Filipino",,0.0
+Nunavut,"Ownership by visible minority, Latin American",,
+Nunavut,"Ownership by visible minority, Arab",,0.0
+Nunavut,"Ownership by visible minority, Southeast Asian",,
+Nunavut,"Ownership by visible minority, West Asian",,
+Nunavut,"Ownership by visible minority, Korean",,
+Nunavut,"Ownership by visible minority, Japanese",,
+Nunavut,"Ownership by visible minority, other visible minority",,
+Nunavut,"Ownership by visible minority, preferred not to say",,
+Nunavut,"Business or organization activity in the last 12 months, all business or organization activities",,19.0
+Nunavut,Exported goods outside of Canada,,
+Nunavut,Exported services outside of Canada,,
+Nunavut,Made investments outside of Canada,,
+Nunavut,Sold goods to businesses in Canada who then resold them outside of Canada,,
+Nunavut,Imported goods from outside of Canada,,
+Nunavut,Imported services from outside of Canada,,0.0
+Nunavut,Relocated any business or organizational activities or employees from another country into Canada,,
+Nunavut,Relocated any business or organizational activities or employees from Canada to another country,,
+Nunavut,Engaged in other international business activities,,
+Nunavut,"Business or organization activity, none or other",,16.6
