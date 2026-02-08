@@ -1,5 +1,6 @@
 import { ArrowUpRight, ArrowDownRight } from "lucide-react";
 import { cn } from "../../lib/utils";
+import type { ScenarioResult, ScenarioResultSector } from "../../pages/Dashboard";
 
 interface SectorRow {
     id: string;
@@ -17,12 +18,33 @@ const mockData: SectorRow[] = [
     { id: "5", name: "Agriculture", risk: 30, delta: 0.5, exposure: "Global" },
 ];
 
-export const RiskLeaderboard = () => {
+function resultToRows(result: ScenarioResult | null | undefined): SectorRow[] {
+    if (!result?.sectors?.length) return mockData;
+    const sorted = [...result.sectors].sort((a, b) => (b.risk_delta ?? 0) - (a.risk_delta ?? 0));
+    return sorted.slice(0, 20).map((s: ScenarioResultSector) => ({
+        id: s.sector_id,
+        name: s.sector_name,
+        risk: s.risk_score,
+        delta: s.risk_delta,
+        exposure: `${s.top_partner ?? "—"} (${(s.dependency_percent ?? 0).toFixed(0)}%)`,
+    }));
+}
+
+interface RiskLeaderboardProps {
+    scenarioResult?: ScenarioResult | null;
+    onSectorClick?: (sectorId: string) => void;
+    selectedSectorId?: string | null;
+}
+
+export const RiskLeaderboard = ({ scenarioResult, onSectorClick, selectedSectorId }: RiskLeaderboardProps) => {
+    const rows = resultToRows(scenarioResult);
     return (
         <div className="bg-white/[0.02] border border-white/5 rounded-2xl overflow-hidden flex flex-col h-[400px]">
             <div className="px-6 py-4 border-b border-white/5 flex justify-between items-center">
                 <h3 className="text-sm font-semibold text-white/90">Sector Risk Ranking</h3>
-                <span className="text-xs text-white/40 uppercase tracking-widest">Live Simulation</span>
+                <span className="text-xs text-white/40 uppercase tracking-widest">
+                    {scenarioResult ? "Live Simulation" : "Mock — run simulation"}
+                </span>
             </div>
 
             <div className="flex-1 overflow-auto">
@@ -36,10 +58,15 @@ export const RiskLeaderboard = () => {
                         </tr>
                     </thead>
                     <tbody className="divide-y divide-white/5">
-                        {mockData.map((row) => (
+                        {rows.map((row) => (
                             <tr
                                 key={row.id}
-                                className="hover:bg-white/[0.02] transition-colors cursor-pointer group"
+                                onClick={() => onSectorClick?.(row.id)}
+                                className={cn(
+                                    "hover:bg-white/[0.02] transition-colors group",
+                                    onSectorClick ? "cursor-pointer" : "",
+                                    selectedSectorId === row.id ? "bg-white/[0.06]" : ""
+                                )}
                             >
                                 <td className="px-6 py-4 text-sm font-medium text-white/80 group-hover:text-white transition-colors">
                                     {row.name}

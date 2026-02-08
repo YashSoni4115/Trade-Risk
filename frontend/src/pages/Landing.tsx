@@ -58,7 +58,7 @@ export default function Landing() {
 
           </h1>
           <p className="mt-6 max-w-xl text-lg text-white/60">
-            Simulate tariff shocks and see which Canadian sectors are most exposed — and why.
+            Simulate tariff shocks and see which Canadian sectors are most exposed. And why.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <Link

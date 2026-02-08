@@ -7,8 +7,9 @@ import {
     Tooltip,
     ResponsiveContainer,
 } from "recharts";
+import type { ScenarioResult, ScenarioResultSector } from "../../pages/Dashboard";
 
-const data = [
+const mockData = [
     { name: "Auto", baseline: 60, shocked: 85 },
     { name: "Steel", baseline: 55, shocked: 78 },
     { name: "Lumber", baseline: 65, shocked: 62 },
@@ -17,10 +18,42 @@ const data = [
     { name: "Tech", baseline: 20, shocked: 22 },
 ];
 
-export const PrimaryChart = () => {
+function resultToChartData(
+    result: ScenarioResult | null | undefined,
+    baselineResult?: ScenarioResult | null
+) {
+    if (!result?.sectors?.length) return mockData;
+    const baselineMap = new Map<string, number>();
+    if (baselineResult?.sectors?.length) {
+        for (const b of baselineResult.sectors) {
+            baselineMap.set(b.sector_id, b.risk_score);
+        }
+    }
+    return result.sectors.slice(0, 8).map((s: ScenarioResultSector) => ({
+        name: s.sector_name.slice(0, 8),
+        baseline: baselineMap.has(s.sector_id)
+            ? baselineMap.get(s.sector_id)!
+            : Math.max(0, s.risk_score - s.risk_delta),
+        shocked: s.risk_score,
+    }));
+}
+
+interface PrimaryChartProps {
+    scenarioResult?: ScenarioResult | null;
+    baselineResult?: ScenarioResult | null;
+}
+
+export const PrimaryChart = ({ scenarioResult, baselineResult }: PrimaryChartProps) => {
+    const data = resultToChartData(scenarioResult, baselineResult);
+    const hasResult = !!scenarioResult?.sectors?.length;
     return (
         <div className="bg-white/[0.02] border border-white/5 rounded-2xl p-5 flex flex-col h-[300px]">
-            <h3 className="text-sm font-semibold text-white/90 mb-4">Risk Distribution Delta</h3>
+            <div className="flex items-center justify-between mb-4">
+                <h3 className="text-sm font-semibold text-white/90">Risk Distribution Delta</h3>
+                {!hasResult && (
+                    <span className="text-[10px] text-white/40 uppercase tracking-wider">Run simulation for current settings</span>
+                )}
+            </div>
 
             <div className="flex-1 w-full min-h-0">
                 <ResponsiveContainer width="100%" height="100%">

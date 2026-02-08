@@ -1,11 +1,13 @@
 import { TrendingUp, DollarSign, Activity } from "lucide-react";
 import { cn } from "../../lib/utils";
+import type { ScenarioState } from "./ScenarioControls";
+import type { ScenarioResult, ScenarioResultSector } from "../../pages/Dashboard";
 
 interface KpiCardProps {
     label: string;
     value: string | number;
     change?: string;
-    positive?: boolean; // true = good, false = bad (for color)
+    positive?: boolean;
     icon?: React.ReactNode;
 }
 
@@ -35,32 +37,46 @@ const KpiCard = ({ label, value, change, positive, icon }: KpiCardProps) => {
     );
 };
 
-export const KpiStrip = () => {
-    // Mock data - would come from props/context
+interface KpiStripProps {
+    scenario?: ScenarioState | null;
+    scenarioResult?: ScenarioResult | null;
+}
+
+export const KpiStrip = ({ scenario, scenarioResult }: KpiStripProps) => {
+    const activeLabel = scenario
+        ? `${scenario.targetPartners.join(", ")} / ${scenario.tariffPercent}%`
+        : "—";
+    const topSector = scenarioResult?.biggest_movers?.[0] ?? scenarioResult?.sectors?.[0];
+    const largestDelta = scenarioResult?.sectors?.length
+        ? Math.max(...scenarioResult.sectors.map((s: ScenarioResultSector) => s.risk_delta))
+        : null;
+    const totalAffected = scenarioResult?.sectors?.reduce((sum: number, s: ScenarioResultSector) => sum + (s.affected_export_value ?? 0), 0) ?? 0;
+    const formatB = (v: number) => (v >= 1e9 ? `${(v / 1e9).toFixed(1)}B` : v >= 1e6 ? `${(v / 1e6).toFixed(1)}M` : v >= 1e3 ? `${(v / 1e3).toFixed(1)}k` : String(v));
+
     return (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
             <KpiCard
                 label="Most Exposed Sector"
-                value="Automotive"
+                value={topSector?.sector_name ?? "—"}
                 icon={<Activity className="w-8 h-8" />}
             />
             <KpiCard
                 label="Largest Risk Δ"
-                value="+12.4%"
+                value={largestDelta != null ? `${largestDelta > 0 ? "+" : ""}${largestDelta.toFixed(1)}%` : "—"}
                 change="vs Baseline"
                 positive={false}
                 icon={<TrendingUp className="w-8 h-8" />}
             />
             <KpiCard
                 label="Affected Export Value"
-                value="$4.2B"
+                value={totalAffected > 0 ? `$${formatB(totalAffected)}` : "—"}
                 icon={<DollarSign className="w-8 h-8" />}
             />
             <KpiCard
                 label="Active Scenario"
-                value="US / 10%"
-                change="Steel Focus"
-                positive={true} // Neutral
+                value={activeLabel}
+                change={scenarioResult ? "Live" : "Set & run"}
+                positive={true}
                 icon={<Activity className="w-8 h-8" />}
             />
         </div>

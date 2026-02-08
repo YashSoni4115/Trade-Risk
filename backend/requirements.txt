@@ -3,6 +3,8 @@ Flask-Cors
 pandas
 numpy
 scikit-learn
-tensorflow
 pytest
 python-dotenv
+
+# Optional: TensorFlow for ML model (requires Python 3.9–3.12; no wheel for 3.14 yet).
+# If you need ML predictions, use Python 3.11 or 3.12 and: pip install -r requirements-ml.txt

@@ -2,6 +2,20 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+## Frontend ↔ Backend Integration
+
+The dashboard talks to the TariffShock Python Flask backend for sectors, partners, config, scenarios, and sector detail.
+
+- **Env:** Set `VITE_API_BASE_URL` (default `http://localhost:5001`). Copy `.env.example` to `.env` and adjust if needed.
+- **Run both:**
+  1. Backend: from repo root, `cd backend` then `python -m flask run -p 5001` (or `flask run -p 5001`).
+  2. Frontend: from `frontend`, `npm run dev`.
+- **CORS:** The backend must allow the frontend origin (e.g. `flask_cors` with `/api/*` and optionally `/health`). If requests fail with CORS errors, enable CORS for the frontend origin in the Flask app.
+- **Example curl (optional):**
+  - `curl http://localhost:5001/health`
+  - `curl http://localhost:5001/api/sectors`
+  - `curl -X POST http://localhost:5001/api/scenario -H "Content-Type: application/json" -d "{\"tariff_percent\":10,\"target_partners\":[\"US\"]}"`
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
