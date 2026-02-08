@@ -8,6 +8,8 @@ import logging
 import sys
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 # Setup logging
 logging.basicConfig(
     level=logging.INFO,
@@ -19,6 +21,7 @@ from src.routes import create_app
 
 def main():
     """Main entry point."""
+    load_dotenv(Path(__file__).parent / ".env")
     # Get data directory from command line or use default
     data_dir = sys.argv[1] if len(sys.argv) > 1 else None
     

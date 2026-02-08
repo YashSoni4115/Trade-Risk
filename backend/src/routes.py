@@ -14,8 +14,11 @@ from .schemas import Partner, ScenarioInput
 from .risk_engine import RiskEngine, create_risk_engine
 from .load_data import load_data, get_data_loader
 from .ml_model import TariffRiskNN
+from .routes_backboard import register_backboard_routes
 
 logger = logging.getLogger(__name__)
+
+from flask_cors import CORS
 
 
 def create_app(data_dir: Optional[str] = None) -> Flask:
@@ -29,6 +32,7 @@ def create_app(data_dir: Optional[str] = None) -> Flask:
         Configured Flask application
     """
     app = Flask(__name__)
+    CORS(app, resources={r"/api/*": {"origins": "*"}})
     
     # Load data at startup
     try:
@@ -531,6 +535,8 @@ def create_app(data_dir: Optional[str] = None) -> Flask:
     @app.errorhandler(500)
     def internal_error(e):
         return jsonify({"error": "Internal server error"}), 500
+    
+    register_backboard_routes(app)
     
     return app
 

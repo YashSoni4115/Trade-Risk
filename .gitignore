@@ -30,6 +30,9 @@ Thumbs.db
 # Logs
 *.log
 
+# Env files
+backend/.env
+
 # Testing
 .pytest_cache/
 backend/.pytest_cache/

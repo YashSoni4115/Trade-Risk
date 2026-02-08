@@ -10,7 +10,7 @@ import pandas as pd
 from pathlib import Path
 import pickle
 import logging
-from typing import Tuple, Dict, List
+from typing import Tuple, Dict, List, Any
 
 try:
     import tensorflow as tf
@@ -50,7 +50,7 @@ class TariffRiskNN:
         if model_path and Path(model_path).exists():
             self.load_model(model_path)
     
-    def _build_model(self, input_dim: int) -> models.Sequential:
+    def _build_model(self, input_dim: int) -> Any:
         """
         Build neural network architecture.
         

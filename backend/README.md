@@ -31,7 +31,7 @@ cxc/
 ### 1. Install Dependencies
 
 ```bash
-pip install pandas numpy flask pytest
+pip install -r requirements.txt
 ```
 
 ### 2. Prepare Data
@@ -64,6 +64,8 @@ python app.py
 | POST | `/api/compare` | Compare two scenarios |
 | GET | `/api/partners` | List valid partners |
 | GET | `/api/config` | Get engine configuration |
+| POST | `/api/chat/context` | Chatbot-ready context via Backboard cache |
+| POST | `/api/chat/explanation` | Store Gemini explanations in Backboard |
 
 ## Example Scenario Request
 
@@ -73,6 +75,40 @@ curl -X POST http://localhost:5000/api/scenario \
   -d '{
     "tariff_percent": 10,
     "target_partners": ["US"]
+  }'
+```
+
+## Backboard Integration
+
+### Environment Variables
+
+- `BACKBOARD_BASE_URL` (required for caching)
+- `BACKBOARD_API_KEY` (required for caching)
+- `ENGINE_VERSION` (bump when risk math or ML model changes)
+
+The API server loads variables from `backend/.env` at startup.
+
+Optional:
+- `BACKBOARD_TIMEOUT` (seconds, default 5)
+- `BACKBOARD_MAX_RETRIES` (default 2)
+
+### Caching Behavior
+
+- Scenario inputs are normalized and hashed (`scenario_id`).
+- Cached results are reused only if `engine_version` matches.
+- If Backboard is unavailable, the API computes locally and returns `cached=false` with a warning.
+
+### Example Chat Context Request
+
+```bash
+curl -X POST http://localhost:5001/api/chat/context \
+  -H "Content-Type: application/json" \
+  -d '{
+    "tariff_percent": 15,
+    "target_partners": ["US"],
+    "sector_id": "72",
+    "model_mode": "deterministic",
+    "explanation_type": "explanation"
   }'
 ```
 
