@@ -98,8 +98,9 @@ class TariffRiskNN:
         df = pd.read_csv(csv_path)
         
         # Select features for the model
+        # NOTE: tariff_percent is excluded because it's constant (all 10.0) in current dataset
+        # To include it, we'd need training data with varying tariff percentages
         feature_cols = [
-            'tariff_percent',   # Tariff shock percentage (0-25)
             'exposure_us',      # US exposure (0-1)
             'exposure_cn',      # China exposure (0-1)
             'exposure_mx',      # Mexico exposure
@@ -198,8 +199,9 @@ class TariffRiskNN:
             raise ValueError("Model not trained. Call train() first.")
         
         # Build feature vector in correct order
+        # NOTE: tariff_percent excluded - it has zero variance (always 10.0) in dataset
+        # To include it, would need training data with varying tariff values
         feature_vector = np.array([
-            features.get('tariff_percent', 0.0),
             features.get('exposure_us', 0.0),
             features.get('exposure_cn', 0.0),
             features.get('exposure_mx', 0.0),

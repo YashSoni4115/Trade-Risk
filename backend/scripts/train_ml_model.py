@@ -58,7 +58,12 @@ def main():
         print("Initializing model...")
         model = TariffRiskNN()
         
-        print("Training model on 98 Canadian sectors...")
+        # Load data to check sample count
+        import pandas as pd
+        df = pd.read_csv(data_csv)
+        num_sectors = len(df)
+        
+        print(f"Training model on {num_sectors} Canadian sectors...")
         print("(This may take 1-2 minutes...)")
         print()
         
