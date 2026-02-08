@@ -32,7 +32,7 @@ export default function Landing() {
         <div className="flex items-center justify-between rounded-full border border-white/10 bg-white/5 px-6 py-3 backdrop-blur-md">
           <div className="flex items-center gap-3 text-white/90">
             <span className="h-8 w-8 rounded-full bg-white/10" />
-            <span className="font-semibold">TariffShock</span>
+            <span className="font-semibold">TradeRisk</span>
           </div>
           <nav className="flex items-center gap-6 text-sm text-white/70">
             <a className="hover:text-white transition-colors" href="/">

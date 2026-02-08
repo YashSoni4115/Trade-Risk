@@ -9,7 +9,7 @@ interface Message {
 export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'assistant', content: "Hi! I'm the TariffShock assistant. Ask me anything about Canadian tariff risks, sector impacts, or trade data." }
+    { role: 'assistant', content: "Hi! I'm the TradeRisk assistant. Ask me anything about Canadian tariff risks, sector impacts, or trade data." }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -59,7 +59,7 @@ export default function ChatWidget() {
         <div className="fixed bottom-6 right-6 w-80 h-[28rem] bg-[#0a0a1a] rounded-xl shadow-2xl flex flex-col z-50 border border-white/10">
           {/* Header */}
           <div className="bg-[#1a1a2e] text-white/90 px-4 py-3 rounded-t-xl flex justify-between items-center border-b border-white/10">
-            <span className="font-semibold">TariffShock Assistant</span>
+            <span className="font-semibold">TradeRisk Assistant</span>
             <button onClick={() => setIsOpen(false)} className="hover:bg-white/10 p-1 rounded">
               <X size={18} />
             </button>

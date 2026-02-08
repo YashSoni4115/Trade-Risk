@@ -188,7 +188,7 @@ export default function Dashboard() {
             <ShieldAlert className="w-5 h-5 text-blue-400" />
           </div>
           <div>
-            <h1 className="text-sm font-semibold tracking-tight text-white/90">TariffShock</h1>
+            <h1 className="text-sm font-semibold tracking-tight text-white/90">TradeRisk</h1>
             <p className="text-[10px] text-white/40 uppercase tracking-widest font-medium">Risk Simulation Engine</p>
           </div>
         </div>
