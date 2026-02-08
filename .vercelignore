@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+backend/.venv/
+backend/venv/
+
+# Build outputs (will be rebuilt)
+frontend/dist/
+
+# Development files
+*.log
+.DS_Store
+*.pyc
+__pycache__/
+
+# IDE
+.idea/
+.vscode/
+
+# Test files
+backend/tests/
+*.test.py
+*.spec.ts
+
+# ML models (too large for serverless, will use formula fallback)
+backend/models/
+
+# Scripts not needed in production
+backend/scripts/
