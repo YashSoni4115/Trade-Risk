@@ -1,0 +1,10 @@
+{
+  "name": "cxc",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1"
+  }
+}

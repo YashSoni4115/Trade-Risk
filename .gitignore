@@ -1,0 +1,61 @@
+# TradeRisk .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/.venv/
+backend/venv/
+.venv/
+venv/
+ENV/
+env/
+.eggs/
+*.egg-info/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Env files
+backend/.env
+
+# Testing
+.pytest_cache/
+backend/.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================================
+# RAW/UNPROCESSED DATA (keep locally only)
+# ============================================
+# These large raw data files should not be pushed to git
+# Only the processed/ folder is needed for the app to run
+
+backend/data/2024_EXP_HS2/
+backend/data/2024_EXP_HS6/
+backend/data/2024_EXP_HS8/
+backend/data/2024_IMP_HS2/
+backend/data/2024_IMP_HS6/
+backend/data/2024_IMP_HS10/
+backend/data/Business_Supplier_Change_Data.csv
+backend/data/Business_Supplier_Change_MetaData.csv
+backend/data/Business*.csv
+backend/data/indicators_*.csv
+backend/data/*.xlsx
+
+# Keep processed data (small, required for app)
+!backend/data/processed/
