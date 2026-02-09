@@ -17,3 +17,5 @@ To support scalable and consistent AI explanations, Trade-Risk uses Backboard as
 - Backboard.io for AI memory and caching
 - Gemini API for natural language explanations
 - pytest for automated testing
+
+Built for CxC 2026.
